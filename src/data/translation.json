@@ -1,0 +1,133 @@
+{
+	"en": {
+		"aboutTitle": ["My", "Story"],
+		"aboutDesc": "Six years ago, I wasn't a sporty person. I was lazy, dissatisfied with my own physique. I was once bullied because of my body type, and I didn't want to be called \"fat\" anymore.So, I stepped into the gym. During the process, I slowly saw the change in my physique and also discovered my passion for fitness. I then embarked on the path of bodybuilding and became the youngest IFBB Pro in Taiwan in 2022.",
+		"competitiveTitle": ["Competitive", "Experience"],
+		"competitive": [
+			{
+				"title": "Amateur",
+				"year": "2019-2022",
+				"accomplishments": [
+					"I did 24 Amatuer bodybuilding shows in total Participated in Men's Physique, Classic Physique and Bodybuilding divisions."
+				]
+			},
+			{
+				"title": "Professional",
+				"year": "2022",
+				"accomplishments": ["Earned my IFBB Pro card in NPC Taiwan Pro Qualifier.", "IFBB Pro League TAIWAN PRO 5th Place"]
+			}
+		],
+		"customTitle": ["Custom", "Training Program"],
+		"customDesc": " s simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+		"customFeatures": ["World Class Expert", "Freedom", "Save Money", "Support & Review"],
+		"socialTitle": ["My", "Social Media"],
+		"pricingTitle": ["Pricing", "Per Program"],
+		"pricing": [
+			{
+				"pricingHeading": "Basic",
+				"pricingSubHeading": "",
+				"features": ["Training Plan", "Supplement Plan", "Bi-Monthly check-in"],
+				"bulkRate": "$720",
+				"discountBulkRate": "$599/6months",
+				"rate": "$120"
+			},
+			{
+				"pricingHeading": "Professional",
+				"pricingSubHeading": "Competition &  Off-season Preparation",
+				"features": ["Training Plan", "Supplement Plan", "Diet Plan", "Posing(included)", "Bi-Weekly check-in"],
+				"bulkRate": "$2400",
+				"discountBulkRate": "$2100/6months",
+				"rate": "$400"
+			},
+			{
+				"pricingHeading": "Advanced",
+				"pricingSubHeading": "Bulking & Cutting Plan",
+				"features": ["Training Plan", "Supplement Plan", "Diet Plan", "Weekly check-in"],
+				"bulkRate": "$1200",
+				"discountBulkRate": "$999/6months",
+				"rate": "$200"
+			},
+			{
+				"pricingHeading": "Posing",
+				"pricingSubHeading": "",
+				"features": [
+					"Present your own physique strength & hide weaknesses",
+					"Customized presentation routine",
+					"Different Leagues requirement ",
+					"Facial expression control",
+					"Tanning techniques"
+				],
+				"bulkRate": "",
+				"discountBulkRate": "",
+				"rate": "$200/session"
+			}
+		],
+		"pricingInfo": "Long-term commitment allows for monitoring, successful foster workout routine, and effective physique trans formation.Recommend starting from 2-3 months."
+	},
+
+	"zh": {
+		"aboutTitle": ["My", "Story"],
+		"aboutDesc": "Six years ago, I wasn't a sporty person. I was lazy, dissatisfied with my own physique. I was once bullied because of my body type, and I didn't want to be called \"fat\" anymore.So, I stepped into the gym. During the process, I slowly saw the change in my physique and also discovered my passion for fitness. I then embarked on the path of bodybuilding and became the youngest IFBB Pro in Taiwan in 2022.",
+		"competitiveTitle": ["Competitive", "Experience"],
+		"competitive": [
+			{
+				"title": "Amateur",
+				"year": "2019-2022",
+				"accomplishments": [
+					"I did 24 Amatuer bodybuilding shows in total Participated in Men's Physique, Classic Physique and Bodybuilding divisions."
+				]
+			},
+			{
+				"title": "Professional",
+				"year": "2022",
+				"accomplishments": ["Earned my IFBB Pro card in NPC Taiwan Pro Qualifier.", "IFBB Pro League TAIWAN PRO 5th Place"]
+			}
+		],
+		"customTitle": ["Custom", "Training Program"],
+		"customDesc": " s simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+		"customFeatures": ["World Class Expert", "Freedom", "Save Money", "Support & Review"],
+		"socialTitle": ["My", "Social Media"],
+		"pricingTitle": ["Pricing", "Per Program"],
+		"pricing": [
+			{
+				"pricingHeading": "Basic",
+				"pricingSubHeading": "",
+				"features": ["Training Plan", "Supplement Plan", "Bi-Monthly check-in"],
+				"bulkRate": "$720",
+				"discountBulkRate": "$599/6months",
+				"rate": "$120"
+			},
+			{
+				"pricingHeading": "Professional",
+				"pricingSubHeading": "Competition &  Off-season Preparation",
+				"features": ["Training Plan", "Supplement Plan", "Diet Plan", "Posing(included)", "Bi-Weekly check-in"],
+				"bulkRate": "$2400",
+				"discountBulkRate": "$2100/6months",
+				"rate": "$400"
+			},
+			{
+				"pricingHeading": "Advanced",
+				"pricingSubHeading": "Bulking & Cutting Plan",
+				"features": ["Training Plan", "Supplement Plan", "Diet Plan", "Weekly check-in"],
+				"bulkRate": "$1200",
+				"discountBulkRate": "$999/6months",
+				"rate": "$200"
+			},
+			{
+				"pricingHeading": "Posing",
+				"pricingSubHeading": "",
+				"features": [
+					"Present your own physique strength & hide weaknesses",
+					"Customized presentation routine",
+					"Different Leagues requirement ",
+					"Facial expression control",
+					"Tanning techniques"
+				],
+				"bulkRate": "",
+				"discountBulkRate": "",
+				"rate": "$200/session"
+			}
+		],
+		"pricingInfo": "Long-term commitment allows for monitoring, successful foster workout routine, and effective physique trans formation.Recommend starting from 2-3 months."
+	}
+}
