@@ -1,5 +1,7 @@
 {
 	"en": {
+		"heroTitle": ["GET", "YOUR FITNESS GOALS"],
+		"heroSubtitle": "JOLY LIU - IFBB PRO FITNESS COACH",
 		"aboutTitle": ["My", "Story"],
 		"aboutDesc": "Six years ago, I wasn't a sporty person. I was lazy, dissatisfied with my own physique. I was once bullied because of my body type, and I didn't want to be called \"fat\" anymore.So, I stepped into the gym. During the process, I slowly saw the change in my physique and also discovered my passion for fitness. I then embarked on the path of bodybuilding and became the youngest IFBB Pro in Taiwan in 2022.",
 		"competitiveTitle": ["Competitive", "Experience"],
@@ -66,55 +68,55 @@
 	},
 
 	"zh": {
-		"aboutTitle": ["My", "Story"],
-		"aboutDesc": "Six years ago, I wasn't a sporty person. I was lazy, dissatisfied with my own physique. I was once bullied because of my body type, and I didn't want to be called \"fat\" anymore.So, I stepped into the gym. During the process, I slowly saw the change in my physique and also discovered my passion for fitness. I then embarked on the path of bodybuilding and became the youngest IFBB Pro in Taiwan in 2022.",
-		"competitiveTitle": ["Competitive", "Experience"],
+		"heroTitle": ["GET", "YOUR FITNESS GOALS"],
+		"heroSubtitle": "JOLY LIU - IFBB PRO FITNESS COACH",
+		"aboutTitle": ["我的", "故事"],
+		"aboutDesc": "六年前的我，不愛運動、懶惰、對自己的體態不滿意 曾經因為身材被語言霸凌，不想再當「小胖子」而決心開始訓練 過程中，我慢慢看到自己體態的改變，也找到了對於健身的熱誠 於是開始了健美的道路，也在2022年成為了台灣最年輕的健體IFBB Pro.",
+		"competitiveTitle": ["比賽", "經歷"],
 		"competitive": [
 			{
-				"title": "Amateur",
+				"title": "業餘",
 				"year": "2019-2022",
-				"accomplishments": [
-					"I did 24 Amatuer bodybuilding shows in total Participated in Men's Physique, Classic Physique and Bodybuilding divisions."
-				]
+				"accomplishments": ["總共參加了24場健美比賽其中包括了男子健美、古典健美和健美三個組別"]
 			},
 			{
-				"title": "Professional",
+				"title": "職業",
 				"year": "2022",
-				"accomplishments": ["Earned my IFBB Pro card in NPC Taiwan Pro Qualifier.", "IFBB Pro League TAIWAN PRO 5th Place"]
+				"accomplishments": ["在 NPC 台灣職業資格賽中獲得了 IFBB 職業卡。", "IFBB 職業聯賽 台灣職業 第五名"]
 			}
 		],
-		"customTitle": ["Custom", "Training Program"],
+		"customTitle": ["客製化", "培訓計劃"],
 		"customDesc": " s simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
 		"customFeatures": ["World Class Expert", "Freedom", "Save Money", "Support & Review"],
-		"socialTitle": ["My", "Social Media"],
-		"pricingTitle": ["Pricing", "Per Program"],
+		"socialTitle": ["我的", "社群媒體"],
+		"pricingTitle": ["程序", "的定價"],
 		"pricing": [
 			{
-				"pricingHeading": "Basic",
+				"pricingHeading": "基本",
 				"pricingSubHeading": "",
 				"features": ["Training Plan", "Supplement Plan", "Bi-Monthly check-in"],
 				"bulkRate": "$720",
-				"discountBulkRate": "$599/6months",
+				"discountBulkRate": "$599/6個月",
 				"rate": "$120"
 			},
 			{
-				"pricingHeading": "Professional",
+				"pricingHeading": "專業",
 				"pricingSubHeading": "Competition &  Off-season Preparation",
 				"features": ["Training Plan", "Supplement Plan", "Diet Plan", "Posing(included)", "Bi-Weekly check-in"],
 				"bulkRate": "$2400",
-				"discountBulkRate": "$2100/6months",
+				"discountBulkRate": "$2100/6個月",
 				"rate": "$400"
 			},
 			{
-				"pricingHeading": "Advanced",
+				"pricingHeading": "先進",
 				"pricingSubHeading": "Bulking & Cutting Plan",
 				"features": ["Training Plan", "Supplement Plan", "Diet Plan", "Weekly check-in"],
 				"bulkRate": "$1200",
-				"discountBulkRate": "$999/6months",
+				"discountBulkRate": "$999/6個月",
 				"rate": "$200"
 			},
 			{
-				"pricingHeading": "Posing",
+				"pricingHeading": "擺姿勢",
 				"pricingSubHeading": "",
 				"features": [
 					"Present your own physique strength & hide weaknesses",
