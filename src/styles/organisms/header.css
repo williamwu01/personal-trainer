@@ -1,0 +1,41 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.language {
+  border: 2px solid;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.language button {
+  background: none;
+  color: black;
+  background-color: white;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+  padding: 2px 10px;
+  font-weight: 600;
+}
+
+.language button.inactive {
+  background-color: black;
+  color: white;
+}

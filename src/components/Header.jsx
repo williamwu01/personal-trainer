@@ -1,5 +1,6 @@
 import React from 'react'
 import LanguageToggle from './LanguageToggle'
+import "../styles/organisms/header.css"
 
 const Header = () => {
     return (
@@ -8,9 +9,9 @@ const Header = () => {
 
             <nav>
                 <ul>
-                    <li>About</li>
-                    <li>Pricing</li>
-                    <li>Socials</li>
+                    <li><a href='#about'>About</a></li>
+                    <li><a href='#pricing'>Pricing</a></li>
+                    <li><a href='#social'>Socials</a></li>
                     <LanguageToggle />
                 </ul>
             </nav>
