@@ -3,3 +3,14 @@
 	width: 100vw;
 	object-fit: cover;
 }
+
+/* hero title width */
+.hero-title {
+	max-width: 270px;
+}
+
+.hero-dropdown-btn {
+	position: absolute;
+	bottom: 4rem;
+	right: 50%;
+}
