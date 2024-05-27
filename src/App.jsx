@@ -1,4 +1,6 @@
 import { useState } from 'react'
+import './App.css'
+import './styles/organisms/pt-background.css'
 import Hero from './components/Hero';
 import translationData from "./data/translation.json";
 import { ThemeProvider } from './context/LanguageContext';
