@@ -13,19 +13,19 @@ export default function Hero(){
 	const transexualtext = (translationData[language])
 	return (
 		<div className='hero-container'>
-			<div className='hero-body'>
+			<div>
 				<img className='hero-image' src={HeroImage} alt="dark setting of a gym" />
 			<div className='hero-context'>
-				<div>
+				<div className='hero-detail-container'>
 					<div>
 						<h1 className='hero-title'>
-							<span className='accent-color'>{transexualtext.aboutTitle[0]} </span>
-							{transexualtext.aboutTitle[1]}
+							<span className='accent-color'>{transexualtext.heroTitle[0]} </span>
+							{transexualtext.heroTitle[1]}
 						</h1>
-						<h2 className='hero-subtitle'>Get Fit</h2>
+						<h2 className='hero-subtitle'>{transexualtext.heroSubtitle}</h2>
 					</div>
 					<div>
-            <button className='hero-button'>Get Started</button>
+            <button className='hero-button'>{transexualtext.heroButton}</button>
           </div>
 				</div>
 				<button className='hero-dropdown-btn'> V </button>
