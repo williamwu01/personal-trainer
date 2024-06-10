@@ -31,6 +31,8 @@ const INITIAL_DATA = {
 
 const Booknow = () => {
     const [data, setData] = useState(INITIAL_DATA)
+    const [submissionText, setSubmissionText] = useState("");
+    const [errorText, setErrorText] = useState("");
 
     function updateFields(fields) {
         setData(prev => {
@@ -68,10 +70,10 @@ const Booknow = () => {
             data: data,
         })
             .then((response) => {
-                console.log(response)
+                setSubmissionText("Message sent successfully")
             })
             .catch((error) => {
-                console.log(error)
+                setErrorText(error.response.data.errors[0].message)
             });
     }
 
@@ -85,10 +87,9 @@ const Booknow = () => {
                         <span key={index} className={`${currentStepIndex === index && "active"} circle`}></span>
                     ))}
                 </div>
-                {step}
+
                 <div
                     style={{
-                        marginTop: "1rem",
                         display: "flex",
                         gap: ".5rem",
                         justifyContent: "flex-end",
@@ -101,7 +102,16 @@ const Booknow = () => {
                     )}
                     <button type="submit">{isLastStep ? "Finish" : "Next"}</button>
                 </div>
+
+                {
+                    submissionText && <p>{submissionText}</p>
+                }
+                {
+                    errorText && <p className='error'>{errorText}</p>
+                }
+                {step}
             </form>
+
         </section>
     )
 }

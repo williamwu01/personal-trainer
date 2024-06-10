@@ -2,7 +2,6 @@
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
   position: relative;
 }
 
@@ -13,13 +12,17 @@
 
 form {
   width: 600px;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .steps {
   display: flex;
   justify-content: space-between;
   position: relative;
-  margin: 4rem 0;
+  margin-top: 4rem;
 }
 
 .circle {
@@ -45,4 +48,8 @@ form {
   top: 50%;
   left: 0;
   width: 100%;
+}
+
+.error {
+  color: red;
 }
