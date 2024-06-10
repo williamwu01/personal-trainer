@@ -5,6 +5,7 @@ import { ThemeProvider } from './context/LanguageContext';
 import Header from './components/Header';
 import About from './components/About';
 import Training from './components/Training';
+import Booknow from './components/Booknow';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
         <Hero />
         <About />
         <Training />
+        <Booknow />
       </ThemeProvider>
     </div>
   )

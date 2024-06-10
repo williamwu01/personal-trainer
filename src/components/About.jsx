@@ -26,16 +26,16 @@ const About = () => {
                         {translatedText.competitiveTitle[1]}</h2>
 
                     <div className='competitive'>
-                        {translatedText.competitive.map(competition => (
-                            <div>
+                        {translatedText.competitive.map((competition, index) => (
+                            <div key={index}>
                                 <h3>
                                     {competition.title}
                                 </h3>
                                 <span className='year'>
                                     {competition.year}
                                 </span>
-                                {competition.accomplishments.map(el => (
-                                    <p>{el}</p>
+                                {competition.accomplishments.map((el,index) => (
+                                    <p key={index}>{el}</p>
                                 ))}
                             </div>
                         ))}
