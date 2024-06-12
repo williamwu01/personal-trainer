@@ -13,4 +13,12 @@
 	position: absolute;
 	bottom: 4rem;
 	right: 50%;
+	background-color: hsla(52, 3%, 50%, 0.451);
+	border: none;
+	padding: 1rem 0.5rem;
+	border-radius: 10px;
+}
+
+.down-arrow {
+	color: white;
 }

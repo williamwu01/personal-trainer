@@ -6,6 +6,8 @@ import '../styles/atoms/accent-color.css';
 import translationData from "../data/translation.json";
 import { useContext } from'react';
 import { LanguageContext } from '../context/LanguageContext';
+import { FaArrowDown } from "react-icons/fa6";
+
 
 
 export default function Hero(){
@@ -28,7 +30,9 @@ export default function Hero(){
             <button className='hero-button'>{transexualtext.heroButton}</button>
           </div>
 				</div>
-				<button className='hero-dropdown-btn'> V </button>
+				<button className='hero-dropdown-btn'> 
+					<FaArrowDown className='down-arrow'/>
+				</button>
 			</div>
 			</div>
 		</div>

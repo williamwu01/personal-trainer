@@ -5,7 +5,11 @@ import { ThemeProvider } from './context/LanguageContext';
 import Header from './components/Header';
 import About from './components/About';
 import Training from './components/Training';
+<<<<<<< Updated upstream
 import Booknow from './components/Booknow';
+=======
+import Pricing from './components/Pricing';
+>>>>>>> Stashed changes
 
 function App() {
 
@@ -16,7 +20,11 @@ function App() {
         <Hero />
         <About />
         <Training />
+<<<<<<< Updated upstream
         <Booknow />
+=======
+				<Pricing />
+>>>>>>> Stashed changes
       </ThemeProvider>
     </div>
   )
