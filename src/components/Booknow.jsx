@@ -93,6 +93,7 @@ const Booknow = () => {
                         display: "flex",
                         gap: ".5rem",
                         justifyContent: "flex-end",
+												margin: "2rem",
                     }}
                 >
                     {!isFirstStep && (

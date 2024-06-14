@@ -1,20 +1,28 @@
 .basic-info {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1rem 1.5rem;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 1rem 1.5rem;
 }
 
 .input-container {
-  display: flex;
-  gap: 0.5rem;
+	display: flex;
+	gap: 0.5rem;
 }
 
 label,
-input[type="text"] {
-  flex: 1 1 0;
+input[type='text'] {
+	flex: 1 1 0;
 }
 
 .personal-training {
-  flex-direction: column;
-  grid-column: span 2;
+	flex-direction: column;
+	grid-column: span 2;
+}
+
+@media screen and (max-width: 767px) {
+	.basic-info {
+		display: flex;
+		flex-direction: column;
+		margin: 0 1rem;
+	}
 }

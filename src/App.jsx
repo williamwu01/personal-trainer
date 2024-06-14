@@ -21,8 +21,8 @@ function App() {
         <About />
         <Training />
         <Booknow />
-				{/* <Pricing />
-				<Socials /> */}
+				<Pricing />
+				<Socials />
       </ThemeProvider>
     </div>
   )

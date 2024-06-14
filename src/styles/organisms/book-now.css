@@ -1,55 +1,56 @@
 .book-now {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  position: relative;
+	min-height: 50vh;
+	display: flex;
+	justify-content: center;
+	position: relative;
 }
 
 .book-now h2 {
-  position: absolute;
-  top: 2rem;
+	position: absolute;
+	top: 2rem;
 }
 
 form {
-  width: 600px;
-  margin-top: 3rem;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
+	width: 600px;
+	margin-top: 3rem;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
 }
 
 .steps {
-  display: flex;
-  justify-content: space-between;
-  position: relative;
-  margin-top: 4rem;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	margin-top: 4rem;
+	margin: 2rem;
 }
 
 .circle {
-  width: 1rem;
-  height: 1rem;
-  border-radius: 100%;
-  background-color: white;
-  border: 1px;
-  content: "";
-  z-index: 10;
-  display: inline-block;
+	width: 1rem;
+	height: 1rem;
+	border-radius: 100%;
+	background-color: white;
+	border: 1px;
+	content: '';
+	z-index: 10;
+	display: inline-block;
 }
 
 .active {
-  background-color: orange;
+	background-color: orange;
 }
 
 .steps::after {
-  content: "";
-  position: absolute;
-  height: 1px;
-  background-color: white;
-  top: 50%;
-  left: 0;
-  width: 100%;
+	content: '';
+	position: absolute;
+	height: 1px;
+	background-color: white;
+	top: 50%;
+	left: 0;
+	width: 100%;
 }
 
 .error {
-  color: red;
+	color: red;
 }
