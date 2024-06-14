@@ -5,3 +5,7 @@ li {
 .pricing-title {
 	text-align: center;
 }
+
+.pricing-section {
+	height: 100vh;
+}

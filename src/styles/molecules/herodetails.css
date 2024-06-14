@@ -9,7 +9,10 @@
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.7);
+	display: flex; /* Added */
+	justify-content: center; /* Added */
+	align-items: center; /* Added */
 }
 
 .hero-button {
@@ -23,9 +26,9 @@
 }
 
 .hero-detail-container {
-	transform: translate(10px, 50%);
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
 	align-items: center;
+	gap: 5rem;
 }

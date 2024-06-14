@@ -11,7 +11,7 @@ const About = () => {
     const translatedText = translationData[language];
 
     return (
-        <section className='about container'>
+        <section id="scrolldown" className='about container'>
             <img src={ProfImg} />
             <div>
                 <div className='about-content'>

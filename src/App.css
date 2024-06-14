@@ -1,42 +1,74 @@
-/* #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+html {
+	scroll-behavior: smooth;
+}
+/* Reset CSS */
+/* Applies a basic reset to normalize browser styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+/* Global Styles */
+/* Apply styles to the body and HTML elements */
+/* body {
+	font-family: Arial, sans-serif;
+	line-height: 1.6;
+	background-color: #f8f8f8;
+	color: #333;
+} */
+
+/* Container Styles */
+.container {
+	width: 80%;
+	margin: 0 auto;
+	padding: 20px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Header Styles */
+/* header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px 0;
+	text-align: center;
+} */
+
+/* Navigation Styles */
+nav {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+nav ul {
+	list-style: none;
 }
 
-.card {
-  padding: 2em;
+nav ul li {
+	margin: 0 10px;
 }
 
-.read-the-docs {
-  color: #888;
+/* nav ul li a {
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 10px;
+	border-radius: 5px;
+	transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+	background-color: #555;
+} */
+
+/* Main Content Styles */
+main {
+	padding: 20px 0;
+}
+
+/* Footer Styles */
+/* footer {
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 20px 0;
 } */

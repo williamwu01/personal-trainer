@@ -11,7 +11,7 @@ export default function Pricing() {
     const translatedText = translationData[language];
 
     return (
-        <div>
+        <section className='pricing-section'>
             <h2 className='pricing-title'>
                 <span className='accent-color'>{translatedText.pricingTitle[0]} </span>
                 {translatedText.pricingTitle[1]}
@@ -33,6 +33,6 @@ export default function Pricing() {
                     </section>
                 ))}
             </div>
-        </div>
+        </section>
     );
 }

@@ -27,7 +27,7 @@
 
 	.pricing-box:nth-child(2),
 	.pricing-box:nth-child(3) {
-		background: #ffb800;
+		/* background: #ffb800; */
 		height: 400px;
 	}
 }

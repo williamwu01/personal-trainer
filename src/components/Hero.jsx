@@ -13,6 +13,7 @@ import { FaArrowDown } from "react-icons/fa6";
 export default function Hero(){
 	const {language} = useContext(LanguageContext);
 	const transexualtext = (translationData[language])
+	
 	return (
 		<div className='hero-container'>
 			<div>
@@ -30,9 +31,9 @@ export default function Hero(){
             <button className='hero-button'>{transexualtext.heroButton}</button>
           </div>
 				</div>
-				<button className='hero-dropdown-btn'> 
+				<a  href='#scrolldown' className='hero-dropdown-btn'> 
 					<FaArrowDown className='down-arrow'/>
-				</button>
+				</a>
 			</div>
 			</div>
 		</div>

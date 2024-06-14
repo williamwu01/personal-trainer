@@ -11,12 +11,27 @@
 
 .hero-dropdown-btn {
 	position: absolute;
-	bottom: 4rem;
+	bottom: 15%;
 	right: 50%;
 	background-color: hsla(52, 3%, 50%, 0.451);
 	border: none;
 	padding: 1rem 0.5rem;
 	border-radius: 10px;
+	animation: moveUpDown 2s ease-in-out infinite alternate;
+}
+
+@keyframes moveUpDown {
+	0% {
+		transform: translateY(0);
+	}
+	100% {
+		transform: translateY(-20px); /* Adjust this value to control the distance of movement */
+	}
+}
+
+.hero-dropdown-btn:hover {
+	background-color: rgb(242, 181, 25);
+	transition: 0.5s;
 }
 
 .down-arrow {
