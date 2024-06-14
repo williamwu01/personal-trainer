@@ -7,12 +7,30 @@
 /* hero title width */
 .hero-title {
 	max-width: 270px;
+	font-size: large;
+}
+
+.hero-subtitle {
+	max-width: 270px;
+	font-size: medium;
+}
+
+@media screen and (min-width: 767px) {
+	.hero-title {
+		max-width: 400px;
+		font-size: xx-large;
+	}
+
+	.hero-subtitle {
+		max-width: 400px;
+		font-size: x-large;
+	}
 }
 
 .hero-dropdown-btn {
 	position: absolute;
 	bottom: 15%;
-	right: 50%;
+	/* right: 50%; */
 	background-color: hsla(52, 3%, 50%, 0.451);
 	border: none;
 	padding: 1rem 0.5rem;

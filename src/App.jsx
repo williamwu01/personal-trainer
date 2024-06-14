@@ -7,18 +7,22 @@ import About from './components/About';
 import Training from './components/Training';
 import Booknow from './components/Booknow';
 import Pricing from './components/Pricing';
+import Socials from './components/Socials';
+import Hamburger from './components/Hamburger';
 
 function App() {
 
   return (
     <div>
       <ThemeProvider>
+				{/* <Hamburger /> */}
         <Header />
         <Hero />
         <About />
         <Training />
         <Booknow />
-				<Pricing />
+				{/* <Pricing />
+				<Socials /> */}
       </ThemeProvider>
     </div>
   )

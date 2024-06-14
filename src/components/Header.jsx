@@ -3,6 +3,7 @@ import LanguageToggle from './LanguageToggle'
 import "../styles/organisms/header.css"
 
 const Header = () => {
+	
     return (
         <header className='container'>
             <h1>Logo</h1>
@@ -15,6 +16,8 @@ const Header = () => {
                     <LanguageToggle />
                 </ul>
             </nav>
+
+
         </header>
     )
 }

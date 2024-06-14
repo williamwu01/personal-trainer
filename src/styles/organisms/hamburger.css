@@ -1,0 +1,124 @@
+/* Keep the existing styles */
+/* Add additional styles if needed for mobile and tablet views */
+@media (min-width: 768px) {
+	.hamburger-menu {
+		display: none; /* Hide the hamburger menu for tablet and larger screens */
+	}
+}
+
+.menu-label {
+	background-color: #b6edc8;
+	position: fixed;
+	top: 6rem;
+	right: 6rem;
+	border-radius: 50%;
+	height: 7rem;
+	width: 7rem;
+	cursor: pointer;
+	z-index: 1000;
+	box-shadow: 0 1rem 3rem rgba(182, 237, 200, 0.3);
+	text-align: center;
+}
+
+.nav-background {
+	position: fixed;
+	top: 6.5rem;
+	right: 6.5rem;
+	background-image: radial-gradient(#115b4c, #b6edc8);
+	height: 6rem;
+	width: 6rem;
+	border-radius: 50%;
+	z-index: 600;
+}
+
+.icon {
+	position: relative;
+	background-color: black;
+	width: 3rem;
+	height: 2px;
+	display: inline-block;
+	margin-top: 3.5rem;
+}
+
+.icon::before,
+.icon::after {
+	content: '';
+	background-color: black;
+	width: 3rem;
+	height: 2px;
+	display: inline-block;
+	position: absolute;
+	left: 0;
+}
+
+.icon::before {
+	top: -0.8rem;
+}
+
+.icon::after {
+	top: 0.8rem;
+}
+
+.nav-background.clicked {
+	transform: scale(80);
+}
+
+.navigation {
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 600;
+}
+
+.list {
+	position: absolute;
+	list-style: none;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.item-link {
+	display: inline-block;
+	font-size: 3rem;
+	font-weight: 300;
+	text-decoration: none;
+	color: #b6edc8;
+	padding: 1rem 2rem;
+}
+
+.item-link:hover,
+.item-link:active {
+	color: #115b4c;
+	transform: translateX(1rem);
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	height: 100vh;
+
+	background: #136a8a; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #267871, #136a8a); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #267871, #136a8a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	color: #effe92;
+}
+
+.pages {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 5rem;
+}
+
+@media only screen and (max-width: 768px) {
+	.pages {
+		font-size: 2.5rem;
+	}
+}
