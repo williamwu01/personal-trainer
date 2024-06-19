@@ -15,7 +15,7 @@ function App() {
   return (
     <div>
       <ThemeProvider>
-				{/* <Hamburger /> */}
+				<Hamburger />
         <Header />
         <Hero />
         <About />

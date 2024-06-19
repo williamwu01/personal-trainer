@@ -1,0 +1,25 @@
+.socialmedia {
+	height: 30vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.socialmedia h2 {
+	padding-left: 1rem;
+}
+
+.icon-container {
+	display: flex;
+	justify-content: end;
+	align-items: center; /* Adjust as per your layout needs */
+	width: 100%; /* Adjust width as per your container */
+	padding: 10px; /* Adjust padding as needed */
+}
+
+.icon-container svg {
+	width: 30px;
+	height: 30px;
+}

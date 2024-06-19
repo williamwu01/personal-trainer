@@ -6,6 +6,14 @@
 	}
 }
 
+.navigation {
+	display: none;
+}
+
+.hamburger-menu.open .navigation {
+	display: block;
+}
+
 .menu-label {
 	background-color: #b6edc8;
 	position: fixed;
@@ -72,11 +80,13 @@
 }
 
 .list {
+	display: flex;
+	flex-direction: column;
 	position: absolute;
 	list-style: none;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -50%);
+	transform: translate(-105%, -50%);
 	text-align: center;
 }
 
@@ -85,7 +95,7 @@
 	font-size: 3rem;
 	font-weight: 300;
 	text-decoration: none;
-	color: #b6edc8;
+	color: #ffb800;
 	padding: 1rem 2rem;
 }
 
