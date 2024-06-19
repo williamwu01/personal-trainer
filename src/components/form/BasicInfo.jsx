@@ -1,5 +1,7 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import "../../styles/molecules/basic-info.css"
+import translationData from '../../data/translation.json';
+import { LanguageContext } from '../../context/LanguageContext';
 
 const BasicInfo = ({
   firstName,
@@ -14,11 +16,15 @@ const BasicInfo = ({
   personalTraining,
   updateFields
 }) => {
+
+  const { language } = useContext(LanguageContext);
+  const translatedText = translationData[language];
+
   return (
     <div className='basic-info'>
 
       <div className="input-container">
-        <label>First Name</label>
+        <label>{translatedText.form.firstName}</label>
         <input
           autoFocus
           required
@@ -29,7 +35,7 @@ const BasicInfo = ({
       </div>
 
       <div className="input-container">
-        <label>Last Name</label>
+        <label>{translatedText.form.lastName}</label>
         <input
           required
           type="text"
@@ -39,7 +45,7 @@ const BasicInfo = ({
       </div>
 
       <div className="input-container">
-        <label>Phone</label>
+        <label>{translatedText.form.phone}</label>
         <input
           required
           type="tel"
@@ -49,7 +55,7 @@ const BasicInfo = ({
       </div>
 
       <div className="input-container">
-        <label>Email</label>
+        <label>{translatedText.form.email}</label>
         <input
           required
           type="email"
@@ -59,7 +65,7 @@ const BasicInfo = ({
       </div>
 
       <div className="input-container">
-        <label>Instagram</label>
+        <label>{translatedText.form.instagram}</label>
         <input
           required
           type="url"
@@ -69,7 +75,7 @@ const BasicInfo = ({
       </div>
 
       <div className="input-container">
-        <label>Age</label>
+        <label>{translatedText.form.age}</label>
         <input
           required
           type="number"
@@ -79,7 +85,7 @@ const BasicInfo = ({
       </div>
 
       <div className="input-container">
-        <label>Height(lb)</label>
+        <label>{translatedText.form.height}</label>
         <input
           required
           type="number"
@@ -89,7 +95,7 @@ const BasicInfo = ({
       </div>
 
       <div className="input-container">
-        <label>Weight(lb)</label>
+        <label>{translatedText.form.weight}</label>
         <input
           required
           type="number"
@@ -99,7 +105,7 @@ const BasicInfo = ({
       </div>
 
       <div className="input-container">
-        <label>Line(Optional)</label>
+        <label>{translatedText.form.line}</label>
         <input
           type="text"
           value={line}
@@ -108,18 +114,18 @@ const BasicInfo = ({
       </div>
 
       <div className="input-container personal-training">
-        <label htmlFor="personalTraining">Have you taken any personal training sessions or online sessions?</label>
+        <label htmlFor="personalTraining">{translatedText.form.personalTraining}</label>
         <div>
           <input
             onChange={e => updateFields({ personalTraining: e.target.value })}
             type="radio" id="yes" name="personalTraining" value="yes" checked={personalTraining === "yes"} />
-          <label htmlFor="yes">Yes</label>
+          <label htmlFor="yes">{translatedText.form.personalTrainingOption1}</label>
         </div>
         <div>
           <input
             onChange={e => updateFields({ personalTraining: e.target.value })}
             type="radio" id="no" name="personalTraining" value="no" checked={personalTraining === "no"} />
-          <label htmlFor="no">No</label>
+          <label htmlFor="no">{translatedText.form.personalTrainingOption2}</label>
         </div>
       </div>
 
