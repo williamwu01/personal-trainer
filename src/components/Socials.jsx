@@ -24,7 +24,7 @@ const Socials = () => {
 
 	return (
 		<>
-		<section className='photogallary'>
+		<section id="social" className='photogallary'>
 			<img className="photoig" src={photo1} alt="photo ifbb pro card" />
 			<img className="photoig" src={photo2} alt="photo winning ifbb pro card " />
 			<img className="photoig" src={photo3} alt="photo of posing on stage" />

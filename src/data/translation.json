@@ -1,20 +1,11 @@
 {
 	"en": {
-		"heroTitle": [
-			"GET",
-			"YOUR FITNESS GOALS"
-		],
+		"heroTitle": ["GET", "YOUR FITNESS GOALS"],
 		"heroSubtitle": "JOLY LIU - IFBB PRO FITNESS COACH",
 		"heroButton": "Book Now",
-		"aboutTitle": [
-			"My",
-			"Story"
-		],
-		"aboutDesc": "Six years ago, I wasn't a sporty person. I was lazy, dissatisfied with my own physique. I was once bullied because of my body type, and I didn't want to be called \"fat\" anymore.So, I stepped into the gym. During the process, I slowly saw the change in my physique and also discovered my passion for fitness. I then embarked on the path of bodybuilding and became the youngest IFBB Pro in Taiwan in 2022.",
-		"competitiveTitle": [
-			"Competitive",
-			"Experience"
-		],
+		"aboutTitle": ["My", "Story"],
+		"aboutDesc": "Six years ago, I wasn't a sporty person. I was lazy, dissatisfied with my own physique. I was once bullied because of my body type, and I didn't want to be called \"fat\" anymore. So, I stepped into the gym. During the process, I slowly saw the change in my physique and also discovered my passion for fitness. I then embarked on the path of bodybuilding and became the youngest IFBB Pro in Taiwan in 2022.",
+		"competitiveTitle": ["Competitive", "Experience"],
 		"competitive": [
 			{
 				"title": "Amateur",
@@ -26,40 +17,19 @@
 			{
 				"title": "Professional",
 				"year": "2022",
-				"accomplishments": [
-					"Earned my IFBB Pro card in NPC Taiwan Pro Qualifier.",
-					"IFBB Pro League TAIWAN PRO 5th Place"
-				]
+				"accomplishments": ["Earned my IFBB Pro card in NPC Taiwan Pro Qualifier.", "IFBB Pro League TAIWAN PRO 5th Place"]
 			}
 		],
-		"customTitle": [
-			"Custom",
-			"Training Program"
-		],
-		"customDesc": " s simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
-		"customFeatures": [
-			"World Class Expert",
-			"Freedom",
-			"Save Money",
-			"Support & Review"
-		],
-		"socialTitle": [
-			"My",
-			"Social Media"
-		],
-		"pricingTitle": [
-			"Pricing",
-			"Per Program"
-		],
+		"customTitle": ["Custom", "Training Program"],
+		"customDesc": "My personalized training program is designed to help you achieve your unique fitness goals. With individualized sessions, we focus on your specific objectives, whether it's building strength, improving flexibility, or enhancing overall wellness. I provide tailored guidance and unwavering support throughout your fitness journey to ensure you reach your full potential.",
+		"customFeatures": ["World Class Expert", "Freedom", "Save Money", "Support & Review"],
+		"socialTitle": ["My", "Social Media"],
+		"pricingTitle": ["Pricing", "Per Program"],
 		"pricing": [
 			{
 				"pricingHeading": "Basic",
 				"pricingSubHeading": "",
-				"features": [
-					"Training Plan",
-					"Supplement Plan",
-					"Bi-Monthly check-in"
-				],
+				"features": ["Training Plan", "Supplement Plan", "Bi-Monthly check-in"],
 				"bulkRate": "$720",
 				"discountBulkRate": "$599/6months",
 				"rate": "$120"
@@ -67,26 +37,15 @@
 			{
 				"pricingHeading": "Professional",
 				"pricingSubHeading": "Competition &  Off-season Preparation",
-				"features": [
-					"Training Plan",
-					"Supplement Plan",
-					"Diet Plan",
-					"Posing(included)",
-					"Bi-Weekly check-in"
-				],
+				"features": ["Training Plan", "Supplement Plan", "Diet Plan", "Posing(included)", "Bi-Weekly check-in"],
 				"bulkRate": "$2400",
 				"discountBulkRate": "$2100/6months",
-				"rate": "$400"
+				"rate": "$350"
 			},
 			{
 				"pricingHeading": "Advanced",
 				"pricingSubHeading": "Bulking & Cutting Plan",
-				"features": [
-					"Training Plan",
-					"Supplement Plan",
-					"Diet Plan",
-					"Weekly check-in"
-				],
+				"features": ["Training Plan", "Supplement Plan", "Diet Plan", "Weekly check-in"],
 				"bulkRate": "$1200",
 				"discountBulkRate": "$999/6months",
 				"rate": "$200"
@@ -112,8 +71,8 @@
 			"phone": "Phone",
 			"email": "Email",
 			"age": "Age",
-			"height": "Height(lb)",
-			"weight": "Weight(lb)",
+			"height": "Height(cm)",
+			"weight": "Weight(kg)",
 			"instagram": "Instagram",
 			"line": "Line(Optional)",
 			"personalTraining": "Have you taken any personal training sessions or online sessions?",
@@ -157,96 +116,53 @@
 		}
 	},
 	"zh": {
-		"heroTitle": [
-			"獲得",
-			"您的健身目標"
-		],
+		"heroTitle": ["獲得", "您的健身目標"],
 		"heroSubtitle": "JOLY LIU - IFBB PRO 健身教練",
 		"heroButton": "現在預訂",
-		"aboutTitle": [
-			"我的",
-			"故事"
-		],
+		"aboutTitle": ["我的", "故事"],
 		"aboutDesc": "六年前的我，不愛運動、懶惰、對自己的體態不滿意 曾經因為身材被語言霸凌，不想再當「小胖子」而決心開始訓練 過程中，我慢慢看到自己體態的改變，也找到了對於健身的熱誠 於是開始了健美的道路，也在2022年成為了台灣最年輕的健體IFBB Pro.",
-		"competitiveTitle": [
-			"比賽",
-			"經歷"
-		],
+		"competitiveTitle": ["比賽", "經歷"],
 		"competitive": [
 			{
 				"title": "業餘",
 				"year": "2019-2022",
-				"accomplishments": [
-					"總共參加了24場健美比賽其中包括了男子健美、古典健美和健美三個組別"
-				]
+				"accomplishments": ["總共參加了24場健美比賽其中包括了男子健美、古典健美和健美三個組別"]
 			},
 			{
 				"title": "職業",
 				"year": "2022",
-				"accomplishments": [
-					"在 NPC 台灣職業資格賽中獲得了 IFBB 職業卡。",
-					"IFBB 職業聯賽 台灣職業 第五名"
-				]
+				"accomplishments": ["在 NPC 台灣職業資格賽中獲得了 IFBB 職業卡。", "IFBB 職業聯賽 台灣職業 第五名"]
 			}
 		],
-		"customTitle": [
-			"客製化",
-			"培訓計劃"
-		],
-		"customDesc": " s simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
-		"customFeatures": [
-			"World Class Expert",
-			"Freedom",
-			"Save Money",
-			"Support & Review"
-		],
-		"socialTitle": [
-			"我的",
-			"社群媒體"
-		],
-		"pricingTitle": [
-			"程序",
-			"的定價"
-		],
+		"customTitle": ["客製化", "培訓計劃"],
+		"customDesc": "我的個人化訓練計劃旨在幫助您達成獨特的健身目標。透過個別化的訓練課程，我們專注於您的具體目標，無論是增強力量、提升柔韌性還是促進整體健康。我將在您的健身旅程中提供量身定制的指導和堅定的支持，確保您充分發揮潛力。",
+		"customFeatures": ["世界一流专家", "自由", "省钱", "支持与审查"],
+		"socialTitle": ["我的", "社群媒體"],
+		"pricingTitle": ["程序", "的定價"],
 		"pricing": [
 			{
 				"pricingHeading": "基本",
 				"pricingSubHeading": "",
-				"features": [
-					"Training Plan",
-					"Supplement Plan",
-					"Bi-Monthly check-in"
-				],
-				"bulkRate": "$720",
-				"discountBulkRate": "$599/6個月",
-				"rate": "$120"
+				"features": ["训练计划 ", "补充计划", "每两个月一次的检查"],
+				"bulkRate": "16,228.80 TWD",
+				"discountBulkRate": "13,491.46 TWD/6個月",
+				"rate": "2704.8 TWD"
 			},
 			{
 				"pricingHeading": "專業",
 				"pricingSubHeading": "Competition &  Off-season Preparation",
-				"features": [
-					"Training Plan",
-					"Supplement Plan",
-					"Diet Plan",
-					"Posing(included)",
-					"Bi-Weekly check-in"
-				],
-				"bulkRate": "$2400",
-				"discountBulkRate": "$2100/6個月",
-				"rate": "$400"
+				"features": ["Training Plan", "Supplement Plan", "Diet Plan", "Posing(included)", "Bi-Weekly check-in"],
+				"bulkRate": "56699.09 TWD",
+				"discountBulkRate": "$49611.71/6個月",
+				"rate": "8268.62 TWD"
 			},
 			{
 				"pricingHeading": "先進",
 				"pricingSubHeading": "Bulking & Cutting Plan",
-				"features": [
-					"Training Plan",
-					"Supplement Plan",
-					"Diet Plan",
-					"Weekly check-in"
-				],
-				"bulkRate": "$1200",
-				"discountBulkRate": "$999/6個月",
-				"rate": "$200"
+				"features": ["Training Plan", "Supplement Plan", "Diet Plan", "Weekly check-in"],
+				"bulkRate": "28349.55 TWD",
+				"discountBulkRate": "23601.00 TWD/6個月",
+				"rate": "4724.92 TWD"
 			},
 			{
 				"pricingHeading": "擺姿勢",
@@ -260,9 +176,58 @@
 				],
 				"bulkRate": "",
 				"discountBulkRate": "",
-				"rate": "$200/session"
+				"rate": "4724.92 TWD/session"
 			}
 		],
-		"pricingInfo": "Long-term commitment allows for monitoring, successful foster workout routine, and effective physique trans formation.Recommend starting from 2-3 months."
+		"pricingInfo": "Long-term commitment allows for monitoring, successful foster workout routine, and effective physique trans formation.Recommend starting from 2-3 months.",
+		"form": {
+			"firstName": "明子",
+			"lastName": "姓名",
+			"phone": "電話號碼",
+			"email": "電子郵件",
+			"age": "年齡",
+			"height": "高度(cm)",
+			"weight": "重量(kg)",
+			"instagram": "Instagram",
+			"line": "Line(Optional)",
+			"personalTraining": "您參加過任何個人訓練課程或線上課程嗎?",
+			"personalTrainingOption1": "是",
+			"personalTrainingOption2": "不",
+			"goal": "你的訓練目標是什麼？",
+			"goal_options": {
+				"improvePhysique": "改善我的體質",
+				"workingOut": "開始堅持鍛煉",
+				"buildStrength": "立足實力",
+				"compete": "參加健美比賽",
+				"other": "其他"
+			},
+			"experience": "鍛鍊體驗?",
+			"experience_options": {
+				"o1": "&lt;1年",
+				"o2": "1-2年",
+				"o3": "2-3年",
+				"o4": "3年+",
+				"o5": "沒有經驗"
+			},
+			"programsInterested": "您對以下哪些培訓項目感興趣?",
+			"programOptions": {
+				"o1": "面對面：客製化培訓",
+				"o2": "面對面：夥伴培訓",
+				"o3": "線上：比賽準備/休賽期準備",
+				"o4": "線上：生活方式",
+				"o5": "擺姿勢",
+				"o6": "我不肯定！! 我們再討論"
+			},
+			"availability": "可用性（如果不確定可以跳過）",
+			"allergies": "你有過敏嗎？",
+			"medicalCondition": "您是否曾經受過傷或有任何健康狀況？ （如適用，請註明）？",
+			"medicalOptions": {
+				"o1": "高血壓",
+				"o2": "糖尿病",
+				"o3": "心血管疾病",
+				"o4": "沒有任何",
+				"o5": "其他"
+			}
+		}
 	}
 }

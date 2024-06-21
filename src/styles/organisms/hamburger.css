@@ -4,6 +4,16 @@
 	.hamburger-menu {
 		display: none; /* Hide the hamburger menu for tablet and larger screens */
 	}
+
+	.mobile {
+		display: none;
+	}
+}
+
+.mobile {
+	margin: 2rem;
+	position: fixed;
+	z-index: 10;
 }
 
 .navigation {
@@ -15,10 +25,10 @@
 }
 
 .menu-label {
-	background-color: #b6edc8;
+	background-color: #ffb800;
 	position: fixed;
-	top: 6rem;
-	right: 6rem;
+	top: 2rem;
+	right: 2rem;
 	border-radius: 50%;
 	height: 7rem;
 	width: 7rem;
@@ -30,9 +40,9 @@
 
 .nav-background {
 	position: fixed;
-	top: 6.5rem;
-	right: 6.5rem;
-	background-image: radial-gradient(#115b4c, #b6edc8);
+	top: 2.5rem;
+	right: 2.5rem;
+	background-image: radial-gradient(#000000, #bab3b3);
 	height: 6rem;
 	width: 6rem;
 	border-radius: 50%;
@@ -82,12 +92,13 @@
 .list {
 	display: flex;
 	flex-direction: column;
-	position: absolute;
+	justify-content: center; /* Center vertically */
+	align-items: flex-end; /* Center horizontally */
 	list-style: none;
-	top: 50%;
-	left: 50%;
-	transform: translate(-105%, -50%);
-	text-align: center;
+	text-align: center; /* Center text inside flex items */
+	/* Optionally, you can set width and height if needed */
+	/* width: 100%; */
+	height: 100vh; /* Adjust based on your layout */
 }
 
 .item-link {
@@ -99,11 +110,11 @@
 	padding: 1rem 2rem;
 }
 
-.item-link:hover,
+/* .item-link:hover,
 .item-link:active {
 	color: #115b4c;
 	transform: translateX(1rem);
-}
+} */
 
 html {
 	font-size: 62.5%;
@@ -125,6 +136,11 @@ body {
 	top: 50%;
 	transform: translate(-50%, -50%);
 	font-size: 5rem;
+}
+
+.list li:last-child {
+	margin: 2rem 3rem;
+	/* color: #ffb800; */
 }
 
 @media only screen and (max-width: 768px) {

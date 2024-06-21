@@ -19,7 +19,36 @@
 	padding: 10px; /* Adjust padding as needed */
 }
 
-.icon-container svg {
-	width: 30px;
-	height: 30px;
+.icon-container a {
+	color: #f6f6f6; /* Default text color */
+	text-decoration: none; /* Remove underline */
+	transition: color 0.3s ease; /* Smooth transition for color change */
+	padding: 0 0.5rem;
+}
+
+.icon-container a:hover {
+	color: #ffb800; /* Hover text color */
+}
+
+/* Change link color when clicked */
+.icon-container a:active {
+	color: #fff; /* New text color on click */
+}
+
+.icon-container svg:nth-child(1) {
+	width: 35px;
+	height: 35px;
+}
+
+/* Target the second SVG element inside .icon-container */
+.icon-container svg:nth-child(2) {
+	width: 40px;
+	height: 40px;
+}
+
+/* Target the third SVG element inside .icon-container */
+.icon-container svg:nth-child(3) {
+	/* Adjust styles as needed */
+	width: 40px;
+	height: 40px;
 }

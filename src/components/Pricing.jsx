@@ -11,7 +11,7 @@ export default function Pricing() {
     const translatedText = translationData[language];
 
     return (
-        <section className='pricing-section'>
+        <section id="pricing" className='pricing-section'>
             <h2 className='pricing-title'>
                 <span className='accent-color'>{translatedText.pricingTitle[0]} </span>
                 {translatedText.pricingTitle[1]}
